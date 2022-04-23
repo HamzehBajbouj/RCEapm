@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/drawable/button_design.xml" value="0.35052083333333334" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/drawable/program_list_decoration_card.xml" value="0.34739583333333335" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/drawable/text_field_design.xml" value="0.35052083333333334" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/drawable/view_card_homepage.xml" value="0.34739583333333335" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/activity_main.xml" value="0.2346014492753623" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/activity_sign_in_page.xml" value="0.4" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/activity_sign_up_page.xml" value="0.32019927536231885" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/activity_user_sign_in_category.xml" value="0.268" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/fragment_home_page.xml" value="0.32019927536231885" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/fragment_program_list.xml" value="0.4" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/fragment_registeration.xml" value="0.44000000000000006" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/fragment_testing_observer_example.xml" value="0.11676798378926039" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/fragment_to_test_observer_pattern.xml" value="0.11676798378926039" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/fragment_to_test_observer_second_screen.xml" value="0.3" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/recyclerview_item.xml" value="0.268" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/layout/test.xml" value="0.32019927536231885" />
+        <entry key="..\:/SDAprojectApplication/app/src/main/res/menu/botton_nav.xml" value="0.17407407407407408" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

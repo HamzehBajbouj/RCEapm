@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homePage2">
+
+    <fragment
+        android:id="@+id/homePage2"
+        android:name="com.example.rceapm.uiControlles.homePage.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage2_to_programList"
+            app:destination="@id/programList"
+            app:popUpTo="@id/homePage2" />
+        <action
+            android:id="@+id/action_homePage2_to_toTestObserverSecondScreen"
+            app:destination="@id/toTestObserverSecondScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/programList"
+        android:name="com.example.rceapm.uiControlles.programList.ProgramList"
+        android:label="fragment_program_list"
+        tools:layout="@layout/fragment_program_list" >
+        <action
+            android:id="@+id/action_programList_to_registeration"
+            app:destination="@id/registeration"
+            app:popUpTo="@id/homePage2"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/registeration"
+        android:name="com.example.rceapm.uiControlles.programRegisteration.SuccessRegisteration"
+        android:label="fragment_registeration"
+        tools:layout="@layout/fragment_registeration" />
+    <fragment
+        android:id="@+id/toTestObserverSecondScreen"
+        android:name="com.example.rceapm.uiControlles.ToTestObserverSecondScreen"
+        android:label="fragment_to_test_observer_second_screen"
+        tools:layout="@layout/fragment_to_test_observer_second_screen" />
+</navigation>
